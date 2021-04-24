@@ -1,3 +1,4 @@
-function web(){
-    document.getElementById("first").style.color="cyan";
+function SetDate()
+{
+document.getElementById("flower").innerHTML = new Date().toDateString();
 }

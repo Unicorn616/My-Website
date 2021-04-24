@@ -1,14 +1,38 @@
 <html>
 <head>
-    <title> My First Website </title>
-    <link rel="stylesheet" href="sytle.css">
-    <script src="main.js"> </script>
-    </head>
-    <body>
-        <h1 id="first" onclick="web()"> My First Website </h1>
-        <h2> My breakfast was good!</h2>
-        <img src="https://img.sndimg.com/food/image/upload/c_thumb,q_80,w_412,h_232/v1/img/recipes/18/41/0/mlUJhy1T3CFzP1eDMACA_DSC_0003.jpg">
-        <h3> Crepe </h3>
-        <p> I usually eat this only on the weekend. It was very tasty. I guess the fruit was strawberries, rasberries and blackberries.</p>
-    </body>
+    <title>
+        Blog with Photos
+    </title>
+    <link rel="Stylesheet" href="style.css">
+</head>
+<body onload="Setdate()">
+    <h1>
+    Hello,Welcome To My Photography World!!!
+      <hr>
+    </h1>
+    <h2 id="flower"></h2>
+   <span>
+          <img src="https://bit.ly/3k4DjcM">
+     <p> I Love Cute And Fluffy Dogs.</p><hr>
+     </span>
+<span>
+          <img src="https://bit.ly/37pguv7">
+  <p> I Love All Flowers But This Lotus Is Amazing.</p> </span>
+  <hr>
+  <span>
+          <img src="https://bit.ly/3bftqVn">
+  <p> I Love To See Nature With Blue Sky, Beautiful birds, Falling Of Water and Beautiful Tress.</p> 
+    <hr>
+  </span>
+   <span>
+          <img src="https://bit.ly/3qv0rn8">
+  <p> Here are super cute Birds, these are realy cute and also fantastic.</p> 
+    <hr>
+  </span>
+    <script>
+    function Setdate()
+{
+document.getElementById("flower").innerHTML = new Date().toDateString();
+}</script>
+</body>
 </html>
